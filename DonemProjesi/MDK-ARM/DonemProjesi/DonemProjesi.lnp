@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"donemprojesi\startup_stm32f407xx.o"
+"donemprojesi\main.o"
+"donemprojesi\stm32f4xx_it.o"
+"donemprojesi\stm32f4xx_hal_msp.o"
+"donemprojesi\stm32f4xx_hal_adc.o"
+"donemprojesi\stm32f4xx_hal_adc_ex.o"
+"donemprojesi\stm32f4xx_hal_tim.o"
+"donemprojesi\stm32f4xx_hal_tim_ex.o"
+"donemprojesi\stm32f4xx_hal_rcc.o"
+"donemprojesi\stm32f4xx_hal_rcc_ex.o"
+"donemprojesi\stm32f4xx_hal_flash.o"
+"donemprojesi\stm32f4xx_hal_flash_ex.o"
+"donemprojesi\stm32f4xx_hal_flash_ramfunc.o"
+"donemprojesi\stm32f4xx_hal_gpio.o"
+"donemprojesi\stm32f4xx_hal_dma_ex.o"
+"donemprojesi\stm32f4xx_hal_dma.o"
+"donemprojesi\stm32f4xx_hal_pwr.o"
+"donemprojesi\stm32f4xx_hal_pwr_ex.o"
+"donemprojesi\stm32f4xx_hal_cortex.o"
+"donemprojesi\stm32f4xx_hal.o"
+"donemprojesi\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "DonemProjesi\DonemProjesi.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "DonemProjesi.map" -o DonemProjesi\DonemProjesi.axf
